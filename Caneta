@@ -1,0 +1,29 @@
+
+package etec.revisão;
+
+
+public class aularevisão {
+    public static void main (String[] args ) {
+        
+        Caneta bic = new Caneta ();
+        
+        bic.cor = "Azul";
+        bic.modelo = "Compacta";
+        bic.carga = 80;
+        bic.ponta = 0.7;
+        
+       // System.out.println ( bic.cor + "\n"+ bic.modelo + "\n" + bic.carga + "\n" + bic.ponta);
+        Caneta bic2 = new Caneta();
+        
+        bic.cor = "preto";
+        bic2.modelo = "tinteiro";
+        bic.carga = 50;
+        bic.ponta = 0.38;
+        
+        bic2.mostrar();
+        
+    }
+        
+    }
+    
+
